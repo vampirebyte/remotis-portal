@@ -1,0 +1,10 @@
+.shop-container {
+    min-height: 78.7vh;
+    row-gap: 3.65vh;
+    max-width: 118.52vh;
+    min-width: 118.52vh;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}

@@ -1,0 +1,114 @@
+.logo-img {
+    display: block;
+    margin: auto;
+}
+
+.login__header {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.login__header h1 {
+    text-transform: uppercase;
+    font-size: 2.77vh;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.login__header p {
+    color: white;
+    font-size: 2.03vh;
+    line-height: 2.2vh;
+    text-align: center;
+}
+
+.login-side-bar-container {
+    min-width: 37vh;
+    max-width: 40vh;
+    min-height: 100vh;
+    background-color: #1E1E20;
+    position: relative;
+}
+
+.login__form {
+    padding: 0 20px;
+}
+
+.login__form button,
+.login__form a {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+    padding: 0.7rem 0rem;
+}
+
+.wallet-modal-container {
+    color: white;
+}
+
+.login__form .custom-botton,
+.wallet-modal-container .custom-button 
+{
+    color: #fafafa;
+    background-color: #ff0038;
+    font-size: 2.03vh;
+    padding-top: 0.64vh;
+    padding-bottom: 0.64vh;
+    border-radius: 0.55vh;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    line-height: 3.2vh;
+    font-style: normal;
+    font-variant: normal;
+    border-color: #ff0038;
+    border-width: 0.18vh;
+    border-style: solid;
+}
+
+.login__form .custom-botton:hover,
+.login__form .custom-botton:focus,
+.wallet-modal-container .custom-button:hover {
+    background-color: #ff0038;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.18vh;
+    box-shadow: 0 0px 1.85vh #ff0038aa;
+}
+
+.login-side-bar-footer {
+    position: relative;
+    position: relative;
+    width: 100%;
+    padding: 6.1vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wallet-modal-loader svg,
+.wallet-ledger-spinner svg {
+    color: #ff0038;
+    fill: #ff0038;
+}
+
+.wallet-modal-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.wallet-modal {
+    color: white;
+    min-height: 280px;
+    min-width: 620px;
+    border-radius: 0.55vh;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+ .wallet-modal button {
+    background-color: transparent;
+    box-shadow: none;
+}

@@ -1,0 +1,45 @@
+.success-footer-content {
+    padding: 0px 3.8vh;
+    bottom: 30%;
+    position: absolute;
+    max-width: 70%;
+}
+
+hr {
+    width: 6px;
+    height: 100%;
+    background-color: #ff0038;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0.55vh;
+    box-shadow: 0 0px 20px #ff0038aa;
+}
+
+.success-footer-content-title {
+    padding-right: 3.8vh;
+    height: 100%;
+    position: relative;
+}
+
+.success-footer-content-title span {
+    line-height: 5.2vh;
+    font-size: 35px;
+}
+
+
+.success-footer-content-title h1, 
+.success-footer-content-title span {
+    text-transform: uppercase;
+    color: white;
+}
+
+.success-footer-content-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.success-footer-content-text {
+    padding-left: 3.8vh;
+    color: white;
+}

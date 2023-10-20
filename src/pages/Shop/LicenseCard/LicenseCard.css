@@ -1,0 +1,187 @@
+.license-card {
+  background: transparent linear-gradient(337deg, #1e1e2080 0%, #68686a 100%) 0% 0% no-repeat padding-box;
+  white-space: nowrap;
+  position: relative;
+  color: white;
+  box-shadow: 0px 1.7vh 3.7vh rgba(0, 0, 0, 0.5019607843);
+  border-radius: 1.11vh;
+  height: 100%;
+  width: 100%;
+  padding: 1.21vh 1.21vh 1.66vh 1.66vh;
+  border-radius: 1.11vh
+}
+
+span {
+  font-size: 2.03vh;
+  line-height: 2.2vh;
+}
+
+.license-card h2 {
+  text-transform: uppercase;
+  font-size: 2.23vh;
+  font-weight: normal;
+}
+
+.license-card__container--logo-license {
+  height: 7.231vh;
+  width: auto;
+  filter: drop-shadow(0px 1.85vh 0.92vh rgba(0, 0, 0, 0.5));
+  margin-bottom: 4.8vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.license-card__icons {
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+}
+
+.license-card__icons--icon {
+  font-size: 1vh;
+  position: relative;
+  width: fit-content;
+  display: inline-block;
+  margin-top: 2.77vh;
+}
+
+.license-card__icons--icon  .fps {
+  font-size: 1.3vh;
+}
+
+.license-card__icons--icon  svg {
+  width: 5.8vh;
+  stroke: white;
+}
+
+.license-card__icons--icon  span {
+  line-height: 0;
+}
+
+.license-card__icons--icon-fps-group {
+  position: absolute;
+  bottom: 1.11vh;
+  right: 0px;
+}
+
+.license-card__icons--icon-fps-group .fps {
+  top: 2vh;
+  position: absolute;
+  right: 0;
+}
+
+.license-card__icons--icon-fps-group .fps-value {
+  font-size: 1.9vh;
+  position: absolute;
+  bottom: 1vh;
+  right: 0;
+}
+
+.license-card__icons--icon-boost-group {
+  font-size: 0.85vh;
+  position: absolute;
+  text-align: start;
+  top: 1vh;
+  left: 0.5vh;
+}
+
+.license-card__icons--icon-boost-group span {
+  font-size: 1.3vh;
+  font-weight: bold;
+}
+
+.license-card__icons--icon-boost-group .boost {
+  position: absolute;
+  bottom: 0vh;
+  right: -0.35vh;
+  font-size: 1.9vh;
+}
+
+.formula1 {
+  font-size: 6.4vh;
+}
+
+.license-card__icons--icon-liveries-group {
+  position: absolute;
+  bottom: 0.46vh;
+  right: 0;
+}
+
+.license-card__icons--icon-liveries-group span {
+  text-transform: uppercase;
+  font-size: 1.3vh;
+}
+
+.license-card_price-button-container button {
+  position: relative;
+}
+
+.license-card_price-button-container {
+  text-align: center;
+  margin-top: 4.3vh;
+}
+
+.r-coin {
+  color: #FFB505;
+}
+
+.body-text {
+  font-weight: bold;
+}
+
+.license-card_price-button {
+  color: #fafafa;
+  background-color: #ff0038;
+  font-size: 2.03vh;
+  border-radius: 0.55vh;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0px;
+  line-height: 3.2vh;
+  font-style: normal;
+  font-variant: normal;
+  border-color: #ff0038;
+  border-width: 0.18vh;
+  border-style: solid;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5vh 8.7vh;
+}
+
+.license-card_price-button:hover {
+  background-color: #ff0038;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.18vh;
+  box-shadow: 0 0px 1.85vh #ff0038aa;
+}
+
+.rpm {
+  font-size: 1.4vh;
+}
+
+.license-card__icons--icon .sound {
+  width: 4vh;
+  fill: transparent;
+  right: 1vh;
+  position: relative;
+  margin-top: 0;
+  top: -2vh;
+}
+
+.month-dropdown {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 2.23vh;
+}
+
+.month-dropdown:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.licence-info {
+  margin-bottom: 3vh;
+}

@@ -1,0 +1,10 @@
+
+.main-page-container {
+    background-image: url("/src/assets/img/bkg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    overflow: scroll;
+}

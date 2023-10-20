@@ -1,0 +1,47 @@
+.unlock-footer-content {
+    position: absolute;
+    bottom: 120px;
+    padding: 0px 3.8vh;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 100vh;
+}
+
+hr {
+    width: 6px;
+    height: 100%;
+    background-color: #ff0038;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0.55vh;
+    box-shadow: 0 0px 20px #ff0038aa;
+}
+
+.unlock-footer-content-title {
+    padding-right: 3.8vh;
+    height: 100%;
+    position: relative;
+}
+
+.unlock-footer-content-title span {
+    line-height: 5.2vh;
+}
+
+.unlock-footer-content-title h1, 
+.unlock-footer-content-title span {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.unlock-footer-content-title h1 {
+    font-weight: bold;
+}
+
+.unlock-footer-content-text {
+    padding-left: 3.8vh;
+    color: white;
+}
