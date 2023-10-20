@@ -7,8 +7,8 @@ export const UnlockFooter = (): JSX.Element => {
 
         <div className="login-content__summary" >
           <div className="unlock-footer-content-title">
-            <span>Remottis</span>
-            <h1>title</h1>
+            <span>Remotis</span>
+            <h1>Login</h1>
             <hr></hr>
           </div>
         </div>
